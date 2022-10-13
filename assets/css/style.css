@@ -9,22 +9,21 @@ body {
 }
 
 #globe-container {
-    position: relative;
-    height: 80vh;
+    /* position: relative; */
+    height: 90vh;
     background: url(../images/space.jpg) repeat center center;
     z-index: -1;
 }
 
 #title {
-    margin-top: 10rem;
-    font-size: 6rem;
+    font-size: 4rem;
     border-radius: 0 0 50% / 0 0 50% 50%;
     z-index: 20;
 }
 
 #globe {
     position: absolute;
-    top: 50px;
+    top: 20%;
     left: calc(50% - 12rem);
     height: 24rem;
     width: 24rem;
