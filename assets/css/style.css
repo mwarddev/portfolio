@@ -81,8 +81,6 @@ body {
 /* Nav */
 
 nav {
-    position: sticky;
-    top: 5px;
     background-color: #000;
 }
 
