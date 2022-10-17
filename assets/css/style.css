@@ -4,6 +4,35 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Neon */
+
+.neon {
+    color: #1F51FF;
+}
+
+.neon-border {
+    border: 4px solid #1F51FF;
+}
+
+.neon-border-top {
+    border-top: 4px solid #1F51FF;
+}
+
+.neon-border-bottom {
+    border-bottom: 4px solid #1F51FF;
+}
+
+.neon-shadow {
+    box-shadow: 0 0 25px 5px #1F51FF;
+}
+
+.neon-ul {
+    text-decoration-line: underline;
+    text-decoration-color: #1F51FF;
+}
+
+/* Header */
+
 .title-font {
     font-family: 'Orbitron', sans-serif;
 }
@@ -49,11 +78,7 @@ body {
 
 }
 
-.neon-border {
-    border-top: 4px solid #1F51FF;
-    border-bottom: 4px solid #1F51FF;
-    box-shadow: 0 0 25px 5px #1F51FF;
-}
+/* Nav */
 
 nav a {
     color: #1F51FF;
@@ -67,4 +92,9 @@ nav .active {
     color: #0ff;
 }
 
+/* About Me */
 
+#profile-img {
+    height: 250px;
+    width: 250px;
+}
