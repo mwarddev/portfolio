@@ -98,6 +98,11 @@ nav .active {
 
 /* About Me */
 
+#about-section {
+    background: url(../images/code.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 #profile-img {
     height: 250px;
     width: 250px;
