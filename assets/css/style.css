@@ -103,6 +103,16 @@ nav .active {
     background-size: cover;
 }
 
+#about-section h2 strong {
+    background: #000;
+}
+
+#about-section p,
+#about-section li {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 #profile-img {
     height: 250px;
     width: 250px;
