@@ -47,6 +47,7 @@ body {
 
 #title {
     position: relative;
+    top: -2rem;
     font-size: 4rem;
     z-index: 20;
 }
@@ -99,12 +100,18 @@ nav .active {
 /* About Me */
 
 #about-section {
-    background: url(../images/code.jpg) no-repeat center center;
+    background: url(../images/about-code.jpg) no-repeat center center;
     background-size: cover;
 }
 
-#about-section h2 strong {
+#about-section h2 strong,
+#about-section h3 strong,
+#about-section h4 strong {
     background: #000;
+}
+
+.dark-back {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #about-section p,
