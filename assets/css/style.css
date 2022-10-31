@@ -111,7 +111,7 @@ nav .active {
 }
 
 .dark-back {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 #about-section p,
@@ -123,4 +123,15 @@ nav .active {
 #profile-img {
     height: 250px;
     width: 250px;
+}
+
+/* Projects */
+
+.bg-black {
+    background-color: #000;
+}
+
+#iceland {
+    background: url(../images/iceland-back.png) no-repeat center center;
+    background-size: cover;
 }
