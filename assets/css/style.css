@@ -116,7 +116,7 @@ nav .active {
 
 #about-section p,
 #about-section li {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -127,8 +127,12 @@ nav .active {
 
 /* Projects */
 
+#project-card {
+    margin: 6rem 18rem;
+}
+
 .bg-black {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 
 #iceland {
