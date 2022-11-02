@@ -136,6 +136,11 @@ nav .active {
 }
 
 #iceland {
-    background: url(../images/iceland-back.png) no-repeat center center;
+    background: url(../images/iceland/iceland-back.png) no-repeat center center;
+    background-size: cover;
+}
+
+#pbc {
+    background: url(../images/pbc/pbc-back.png) no-repeat center center;
     background-size: cover;
 }
