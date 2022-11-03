@@ -144,3 +144,8 @@ nav .active {
     background: url(../images/pbc/pbc-back.png) no-repeat center center;
     background-size: cover;
 }
+
+#monty {
+    background: url(../images/monty/monty-back.png) no-repeat center center;
+    background-size: cover;
+}
