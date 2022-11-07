@@ -149,3 +149,13 @@ nav .active {
     background: url(../images/monty/monty-back.png) no-repeat center center;
     background-size: cover;
 }
+
+#showcase {
+    background: url(../images/showcase/showcase-back.png) no-repeat center center;
+    background-size: cover;
+}
+
+#tripp {
+    background: url(../images/tripp/tripp-back.png) no-repeat center center;
+    background-size: cover;
+}
