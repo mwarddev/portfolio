@@ -19,7 +19,6 @@
     </script>
     <script src="https://kit.fontawesome.com/46a3eeb20c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <script src="assets/js/script.js"></script>
 
     <title>Martin Ward | Junior Full Stack Software Developer</title>
 </head>
@@ -150,321 +149,322 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col p-0">
+                    <div class="col p-0" id="carousel-wrapper">
                         <!-- Create carousel for projects with nested carousels for screenshots. It'll look awesome -->
-                        <!-- Iceland -->
-                        <div class="card" id="iceland">
-                            <div class="card-body p-0 bg-black" id="project-card">
-                                <h4 class="card-title title-font p-1">Iceland | The Land of Fire & Ice</h4>
-                                <!-- Nested crossfade carousel -->
-                                <div id="carouselIcelandFade" class="carousel slide carousel-fade"
-                                    data-bs-ride="carousel" data-bs-pause="hover">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/iceland/iceland.png"
-                                                class="d-block w-100"
-                                                alt="Iceland, the land of fire and ice home page">
+                        <div id="carousel-container">
+                            <!-- Iceland -->
+                            <div class="card slide" id="iceland">
+                                <div class="card-body p-0 bg-black" id="project-card">
+                                    <h4 class="card-title title-font p-1">Iceland | The Land of Fire & Ice</h4>
+                                    <!-- Nested crossfade carousel -->
+                                    <div id="carouselIcelandFade" class="carousel slide carousel-fade"
+                                        data-bs-ride="carousel" data-bs-pause="hover">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/iceland/iceland.png"
+                                                    class="d-block w-100"
+                                                    alt="Iceland, the land of fire and ice home page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/iceland/iceland-1.png" class="d-block w-100"
+                                                    alt="Screenshot from the Fire page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/iceland/iceland-2.png" class="d-block w-100"
+                                                    alt="Screenshot from the Ice page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/iceland/iceland-3.png" class="d-block w-100"
+                                                    alt="Screenshot from the gallery page">
+                                            </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/iceland/iceland-1.png" class="d-block w-100"
-                                                alt="Screenshot from the Fire page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/iceland/iceland-2.png" class="d-block w-100"
-                                                alt="Screenshot from the Ice page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/iceland/iceland-3.png" class="d-block w-100"
-                                                alt="Screenshot from the gallery page">
-                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselIcelandFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselIcelandFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselIcelandFade" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselIcelandFade" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
+                                    <p class="card-text p-1">A static travel blog site documenting a tour around
+                                        southern Iceland</p>
                                 </div>
-                                <p class="card-text p-1">A static travel blog site documenting a tour around
-                                    southern Iceland</p>
+                            </div>
+                            <!-- Personal Budget Calculator -->
+                            <div class="card slide" id="pbc">
+                                <div class="card-body p-0 bg-black" id="project-card">
+                                    <h4 class="card-title title-font p-1">Personal Budget Calculator</h4>
+                                    <!-- Nested crossfade carousel -->
+                                    <div id="carouselPBCFade" class="carousel slide carousel-fade"
+                                        data-bs-ride="carousel" data-bs-pause="hover">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/pbc/pbc-home.png"
+                                                    class="d-block w-100"
+                                                    alt="Personal Budget Calculator screenshot of the home page.">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/pbc/pbc-cat.png" class="d-block w-100"
+                                                    alt="Personal Budget Calculator screenshot of the category list.">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/pbc/pbc-add-box.png" class="d-block w-100"
+                                                    alt="Personal Budget Calculator screenshot of the add a box function.">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/pbc/pbc-result.png" class="d-block w-100"
+                                                    alt="Personal Budget Calculator screenshot of the outcome.">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselPBCFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselPBCFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p class="card-text p-1">A personal budget calculator for managing your personal monthly budget.</p>
+                                </div>
+                            </div>
+                            <!-- Monty's Inn -->
+                            <div class="card slide" id="monty">
+                                <div class="card-body p-0 bg-black" id="project-card">
+                                    <h4 class="card-title title-font p-1">Monty's Inn (CLI)</h4>
+                                    <!-- Nested crossfade carousel -->
+                                    <div id="carouselMontyFade" class="carousel slide carousel-fade"
+                                        data-bs-ride="carousel" data-bs-pause="hover">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/monty/monty-home.png"
+                                                    class="d-block w-100"
+                                                    alt="Monty's Inn screenshot of the welcome screen">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/monty/monty-menu.png" class="d-block w-100"
+                                                    alt="Monty's Inn screenshot of the menu screen">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/monty/monty-rooms.png" class="d-block w-100"
+                                                    alt="Monty's Inn screenshot of available rooms">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/monty/monty-booked.png" class="d-block w-100"
+                                                    alt="Monty's Inn screenshot of booking info">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/monty/monty-delete.png" class="d-block w-100"
+                                                    alt="Monty's Inn screenshot of a booking deletion">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/monty/monty-db.png" class="d-block w-100"
+                                                    alt="Monty's Inn screenshot of the spreadsheet database">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/monty/monty-home1.png" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselMontyFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselMontyFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p class="card-text p-1">A "Command Line Interface" booking system for a fictional Bed & Breakfast.</p>
+                                </div>
+                            </div>
+                            <!-- Showcase -->
+                            <div class="card slide" id="showcase">
+                                <div class="card-body p-0 bg-black" id="project-card">
+                                    <h4 class="card-title title-font p-1">Showcase</h4>
+                                    <!-- Nested crossfade carousel -->
+                                    <div id="carouselShowcaseFade" class="carousel slide carousel-fade"
+                                        data-bs-ride="carousel" data-bs-pause="hover">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/showcase/showcase-home.png" class="d-block w-100"
+                                                    alt="Showcase screenshot of the home page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/showcase/showcase-category.png" class="d-block w-100"
+                                                    alt="Showcase screenshot of all posts in the photography category">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/showcase/showcase-full.png" class="d-block w-100"
+                                                    alt="Showcase screenshot of a full post">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/showcase/showcase-comments.png" class="d-block w-100"
+                                                    alt="Showcase screenshot of the comments section of a full post">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/showcase/showcase-profile.png" class="d-block w-100"
+                                                    alt="Showcase screenshot of a user profile page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/showcase/showcase-register.png" class="d-block w-100"
+                                                    alt="Showcase screenshot of the registration page">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselShowcaseFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselShowcaseFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p class="card-text p-1">A Full Stack social media platform for artists to display their tallents.</p>
+                                </div>
+                            </div>
+                            <!-- Tripp's Treasures -->
+                            <div class="card slide" id="tripp">
+                                <div class="card-body p-0 bg-black" id="project-card">
+                                    <h4 class="card-title title-font p-1">Tripp's Treasures</h4>
+                                    <!-- Nested crossfade carousel -->
+                                    <div id="carouselTrippFade" class="carousel slide carousel-fade"
+                                        data-bs-ride="carousel" data-bs-pause="hover">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/tripp/tripp-home.png"
+                                                    class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the home page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-category.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the baby gifts category list">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-full-product.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of a full product listing">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-basket.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the shopping basket page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-checkout.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the checkout page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-confirmation.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the purchase confirmation page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-newsletter.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the newsletter signup page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-contact.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the contact page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-add-treasure.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the add treasure page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-edit-treasure.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the edit treasure page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-purchase.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the purchases list">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-messages.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the messages page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/tripp/tripp-banner.png" class="d-block w-100"
+                                                    alt="Tripp's Treasures screenshot of the scrolling banner edit page">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselTrippFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselTrippFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p class="card-text p-1">A Full Stack E-commerce site for a small business selling handmade gifts.</p>
+                                </div>
+                            </div>
+                            <!-- Portfolio -->
+                            <div class="card slide" id="port">
+                                <div class="card-body p-0 bg-black" id="project-card">
+                                    <h4 class="card-title title-font p-1">Portfolio</h4>
+                                    <!-- Nested crossfade carousel -->
+                                    <div id="carouselPortfolioFade" class="carousel slide carousel-fade"
+                                        data-bs-ride="carousel" data-bs-pause="hover">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/port/portfolio-home.png"
+                                                    class="d-block w-100"
+                                                    alt="Screenshot of the portfolio home page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/port/portfolio-about.png" class="d-block w-100"
+                                                    alt="Screenshot of the portfolio about me section">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselPortfolioFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselPortfolioFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon visually-hidden"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p class="card-text p-1">A static site for showcasing my skills as a Software Developer.</p>
+                                </div>
                             </div>
                         </div>
-                        <!-- Personal Budget Calculator -->
-                        <div class="card" id="pbc">
-                            <div class="card-body p-0 bg-black" id="project-card">
-                                <h4 class="card-title title-font p-1">Personal Budget Calculator</h4>
-                                <!-- Nested crossfade carousel -->
-                                <div id="carouselPBCFade" class="carousel slide carousel-fade"
-                                    data-bs-ride="carousel" data-bs-pause="hover">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/pbc/pbc-home.png"
-                                                class="d-block w-100"
-                                                alt="Personal Budget Calculator screenshot of the home page.">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/pbc/pbc-cat.png" class="d-block w-100"
-                                                alt="Personal Budget Calculator screenshot of the category list.">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/pbc/pbc-add-box.png" class="d-block w-100"
-                                                alt="Personal Budget Calculator screenshot of the add a box function.">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/pbc/pbc-result.png" class="d-block w-100"
-                                                alt="Personal Budget Calculator screenshot of the outcome.">
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselPBCFade" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselPBCFade" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <p class="card-text p-1">A personal budget calculator for managing your personal monthly budget.</p>
-                            </div>
-                        </div>
-                        <!-- Monty's Inn -->
-                        <div class="card" id="monty">
-                            <div class="card-body p-0 bg-black" id="project-card">
-                                <h4 class="card-title title-font p-1">Monty's Inn (CLI)</h4>
-                                <!-- Nested crossfade carousel -->
-                                <div id="carouselMontyFade" class="carousel slide carousel-fade"
-                                    data-bs-ride="carousel" data-bs-pause="hover">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/monty/monty-home.png"
-                                                class="d-block w-100"
-                                                alt="Monty's Inn screenshot of the welcome screen">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/monty/monty-menu.png" class="d-block w-100"
-                                                alt="Monty's Inn screenshot of the menu screen">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/monty/monty-rooms.png" class="d-block w-100"
-                                                alt="Monty's Inn screenshot of available rooms">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/monty/monty-booked.png" class="d-block w-100"
-                                                alt="Monty's Inn screenshot of booking info">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/monty/monty-delete.png" class="d-block w-100"
-                                                alt="Monty's Inn screenshot of a booking deletion">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/monty/monty-db.png" class="d-block w-100"
-                                                alt="Monty's Inn screenshot of the spreadsheet database">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/monty/monty-home1.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselMontyFade" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselMontyFade" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <p class="card-text p-1">A "Command Line Interface" booking system for a fictional Bed & Breakfast.</p>
-                            </div>
-                        </div>
-                        <!-- Showcase -->
-                        <div class="card" id="showcase">
-                            <div class="card-body p-0 bg-black" id="project-card">
-                                <h4 class="card-title title-font p-1">Showcase</h4>
-                                <!-- Nested crossfade carousel -->
-                                <div id="carouselShowcaseFade" class="carousel slide carousel-fade"
-                                    data-bs-ride="carousel" data-bs-pause="hover">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/showcase/showcase-home.png" class="d-block w-100"
-                                                alt="Showcase screenshot of the home page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/showcase/showcase-category.png" class="d-block w-100"
-                                                alt="Showcase screenshot of all posts in the photography category">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/showcase/showcase-full.png" class="d-block w-100"
-                                                alt="Showcase screenshot of a full post">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/showcase/showcase-comments.png" class="d-block w-100"
-                                                alt="Showcase screenshot of the comments section of a full post">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/showcase/showcase-profile.png" class="d-block w-100"
-                                                alt="Showcase screenshot of a user profile page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/showcase/showcase-register.png" class="d-block w-100"
-                                                alt="Showcase screenshot of the registration page">
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselShowcaseFade" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselShowcaseFade" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <p class="card-text p-1">A Full Stack social media platform for artists to display their tallents.</p>
-                            </div>
-                        </div>
-                        <!-- Tripp's Treasures -->
-                        <div class="card" id="tripp">
-                            <div class="card-body p-0 bg-black" id="project-card">
-                                <h4 class="card-title title-font p-1">Tripp's Treasures</h4>
-                                <!-- Nested crossfade carousel -->
-                                <div id="carouselTrippFade" class="carousel slide carousel-fade"
-                                    data-bs-ride="carousel" data-bs-pause="hover">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/tripp/tripp-home.png"
-                                                class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the home page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-category.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the baby gifts category list">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-full-product.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of a full product listing">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-basket.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the shopping basket page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-checkout.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the checkout page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-confirmation.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the purchase confirmation page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-newsletter.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the newsletter signup page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-contact.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the contact page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-add-treasure.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the add treasure page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-edit-treasure.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the edit treasure page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-purchase.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the purchases list">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-messages.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the messages page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/tripp/tripp-banner.png" class="d-block w-100"
-                                                alt="Tripp's Treasures screenshot of the scrolling banner edit page">
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselTrippFade" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselTrippFade" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <p class="card-text p-1">A Full Stack E-commerce site for a small business selling handmade gifts.</p>
-                            </div>
-                        </div>
-                        <!-- Portfolio -->
-                        <div class="card" id="iceland">
-                            <div class="card-body p-0 bg-black" id="project-card">
-                                <h4 class="card-title title-font p-1">Portfolio</h4>
-                                <!-- Nested crossfade carousel -->
-                                <div id="carouselPortfolioFade" class="carousel slide carousel-fade"
-                                    data-bs-ride="carousel" data-bs-pause="hover">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/iceland.png"
-                                                class="d-block w-100"
-                                                alt="Iceland, the land of fire and ice home page">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/iceland-1.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/iceland-2.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/iceland-3.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselPortfolioFade" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselPortfolioFade" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon visually-hidden"
-                                            aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <p class="card-text p-1">A static site for showcasing my skills as a Software Developer.</p>
-                            </div>
-                        </div>
+                        <button class="carousel-arrow" id="arrow-prev">
+                            &#8249;
+                        </button>
+                        <button class="carousel-arrow" id="arrow-next">
+                            &#8250;
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

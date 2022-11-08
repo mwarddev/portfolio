@@ -2,6 +2,8 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* Neon */
@@ -127,8 +129,12 @@ nav .active {
 
 /* Projects */
 
+#carousel-wrapper {
+    height: calc(100vh - 2rem);
+}
+
 #project-card {
-    margin: 6rem 18rem;
+    margin: 2rem 20rem;
 }
 
 .bg-black {
@@ -159,3 +165,36 @@ nav .active {
     background: url(../images/tripp/tripp-back.png) no-repeat center center;
     background-size: cover;
 }
+
+#port {
+    background: url(../images/port/protfolio-back.png) no-repeat center center;
+    background-size: cover;
+}
+
+#carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel-container {
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* Hide the scroll bar */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide the scroll bar */
+/* WebKit */
+#carousel-container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+}
+ 
