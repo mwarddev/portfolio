@@ -197,4 +197,25 @@ nav .active {
     height: 100%;
     flex: 1 0 100%;
 }
+
+.carousel-arrow {
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    display: flex;
+    top: 40%;
+}
+
+.carousel-arrow:hover {
+    color: #0ff;
+    border-color: #0ff;
+    box-shadow: 0 0 25px 5px #0FF;
+}
+
+#arrow-prev {
+    left: 15px;
+}
+
+#arrow-next {
+    right: 15px;
+}
  
