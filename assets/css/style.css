@@ -230,4 +230,15 @@ nav .active {
 #arrow-next {
     right: 15px;
 }
- 
+
+/* Skills Section */
+
+.skill-card {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.skill-img {
+    width: 5rem;
+    height: 5rem;
+}
