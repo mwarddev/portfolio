@@ -233,12 +233,66 @@ nav .active {
 
 /* Skills Section */
 
+#skill-box {
+    margin: 3rem 15%;
+    padding: 3rem;
+}
+
 .skill-card {
     aspect-ratio: 1/1;
     width: 100%;
+    cursor: pointer;
+}
+
+.skill-card:hover {
+    box-shadow: 0 0 25px 5px #1F51FF;
 }
 
 .skill-img {
     width: 5rem;
     height: 5rem;
 }
+
+.skill-card:hover .skill-img {
+    width: 6rem;
+    height: 6rem;
+}
+
+/* Media Queries */
+
+/* For screens up to 576px wide */
+
+@media screen and (max-width: 576px) {
+    #skill-box {
+        margin: 3rem 1rem;
+        padding: 1rem;
+    }
+
+    .skill-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .skill-card:hover .skill-img {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #skill-box {
+        margin: 3rem 5%;
+        padding: 2rem;
+    }
+
+    .skill-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .skill-card:hover .skill-img {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
