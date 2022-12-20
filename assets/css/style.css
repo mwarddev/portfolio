@@ -249,50 +249,76 @@ nav .active {
 }
 
 .skill-img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .skill-card:hover .skill-img {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 /* Media Queries */
 
 /* For screens up to 576px wide */
-
 @media screen and (max-width: 576px) {
+    #globe {
+        left: calc(50% - 10rem);
+        height: 20rem;
+        width: 20rem;
+        background-size: 40rem;
+    }
+
     #skill-box {
         margin: 3rem 1rem;
         padding: 1rem;
     }
-
-    .skill-img {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .skill-card:hover .skill-img {
-        width: 4rem;
-        height: 4rem;
-    }
 }
 
+/* For screens 576px wide and up */
 @media screen and (min-width: 576px) {
     #skill-box {
         margin: 3rem 5%;
         padding: 2rem;
     }
+}
 
+/* For screens 992px wide and up */
+@media screen and (min-width: 992px) {
+    #skill-box {
+        margin: 3rem 10%;
+        padding: 2rem;
+    }
+}
+
+/* For screens 12px wide and up */
+@media screen and (min-width: 1200px) {
     .skill-img {
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .skill-card:hover .skill-img {
-        width: 4rem;
-        height: 4rem;
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+/* For screens 1400px wide and up */
+@media screen and (min-width: 1400px) {
+    #skill-box {
+        margin: 3rem 15%;
+        padding: 2rem;
+    }
+
+    .skill-img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .skill-card:hover .skill-img {
+        width: 7rem;
+        height: 7rem;
     }
 }
 
