@@ -20,3 +20,12 @@ prevButton.addEventListener("click", () => {
     const slideWidth = window.innerWidth;
     carouselContainer.scrollLeft -= slideWidth;
 });
+
+// Modal script
+
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})

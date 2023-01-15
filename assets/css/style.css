@@ -258,6 +258,19 @@ nav .active {
     height: 5rem;
 }
 
+/* Modal */
+.black-modal {
+    background-color: #000;
+}
+
+.close-btn {
+    background-color: #000;
+    font-size: 1.2rem;
+}
+
+.close-btn:hover {
+    color: #0FF;
+}
 /* Media Queries */
 
 /* For screens up to 576px wide */
